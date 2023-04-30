@@ -239,11 +239,3 @@ header ul li a
 
 }
 
-@keyframes animateColor
-{
-    0%
-    {
-        transform: translateY(0px);
-    }
-}
-    
