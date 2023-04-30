@@ -27,7 +27,7 @@
             <a href="https://www.linkedin.com"><button>Hire Me</button></a>
             <button class="chat">Let's Chat<ion-icon
                 name="chatbubbles-outline"></ion-icon></button>
-            <a href="potcake_project /PotCake Completed Project/index.html"><button class="">My projects</button></a>
+            <a href="#" onclick="randomSite();"><button class="">Projects</button></a>
             
             </div>
         <img class="colors" src="colors3.png" alt="">
@@ -51,6 +51,20 @@
         banner.classList.toggle('night')
     }
    </script>
+   <script>
+    var sites = [
+        '/Volumes/CHRISPORT/WEB-Development/Completed Projects/portfolio/potcake_project ',
+        'http://www.stackoverflow.com',
+        'http://www.example.com',
+        'http://www.youtube.com'
+    ];
+
+    function randomSite() {
+        var i = parseInt(Math.random() * sites.length);
+        location.href = sites[i];
+    }
+</script>
+
 </body>
 
 
